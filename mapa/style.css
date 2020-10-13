@@ -1,0 +1,21 @@
+.openDesc {cursor:pointer;}
+
+#mapa_brasil_svg, svg{
+  cursor:pointer;
+  max-width: 450px;
+  width: 100%;
+}
+
+.estado{fill:#00e0ff; stroke-width:0;}
+
+.icone_estado{fill:#10592F; display:none;}
+
+#icone_df {fill:#00e0ff;}
+
+g:hover .estado{fill:#2D68B2;}
+
+.ativo {fill:#2D68B2 !important;}
+
+g:hover .icone_estado{fill:#5A95CE;}
+
+.label_icone_estado{fill:#FFFFFF;font-family:Arial;font-size:11px;line-height:12px;font-weight:normal; display:none;}
